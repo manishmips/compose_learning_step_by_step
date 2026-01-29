@@ -30,7 +30,7 @@ class Example1Screen : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun Greeting(modifier: Modifier = Modifier) {
     Column(
 
         modifier = modifier
@@ -71,6 +71,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     Compose_learning_step_by_stepTheme {
-        Greeting("Android")
+        Greeting()
     }
 }
