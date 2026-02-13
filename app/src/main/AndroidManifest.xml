@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Compose_learning_step_by_step">
         <activity
-            android:name=".TypesOfButtons"
+            android:name=".StateFullToStateLess"
             android:exported="true"
             android:theme="@style/Theme.Compose_learning_step_by_step">
             <intent-filter>
